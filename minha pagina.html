@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Responsiva</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Tudo sobre valorant</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Links úteis</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo -->
+    <main>
+        <div class="container mt-4">
+            <!-- Seção 1 -->
+            <div class="row mb-4">
+                <div class="col">
+                    <h2>Ínicio</h2>
+                    <p>Um dos maiores sucessos da Riot Games, Valorant é um jogo de tiro online em primeira pessoa no qual dois grupos de cinco pessoas se enfrentam em batalhas em arenas. A cada partida, os jogadores devem concluir as missões do time ou impedir que os adversários completem os próprios objetivos.
+                        A diferença do game em relação a outros do gênero é a história. Com uma lore bastante rica, o título apresenta uma trama interessante, cheia de personagens complexos, conspirações e reviravoltas da melhor qualidade.</p>
+                </div>
+            </div>
+            <!-- Seção 2 -->
+            <div class="row mb-4">
+                <div class="col">
+                    <h2>A história de Valorant</h2>
+                    <p> Tudo começa em 2039, em um futuro relativamente próximo, quando ocorre um evento conhecido como Primeira Luz. O fenômeno, que acontece em diversos lugares do mundo, consiste no surgimento de estranhos anéis de luz que trazem um novo elemento para o planeta Terra. A radianita, até então desconhecida, é extremamente poderosa e se torna importantíssima para toda a humanidade.</p>
+                </div>
+            </div>
+            <!-- Seção 3 -->
+            <div class="row mb-4">
+                <div class="col">
+                    <h2>Links úteis</h2>
+                    <p><a href="https://playvalorant.com/pt-br/news/dev/a-historia-do-valorant-ate-agora/" target="_blank">Site oficial</a></p>
+                    <p><a href="https://pt.wikipedia.org/wiki/Valorant" target="_blank">Wikipédia da pagina</a></p>
+                    <p><a href="https://valorant.fandom.com/pt-br/wiki/VALORANT" target="_blank">Wiki do Valorant</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; <span id="current-year"></span> Minha Página Web. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Atualiza o ano atual no rodapé
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
